@@ -2,7 +2,7 @@
 
 > **Authorship & License**
 > Author: Nils Holmager | Date: April 2026
-> This philosophical framework and documentation are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). The accompanying execution tools and scripts are licensed under the MIT License.
+> This philosophical framework and documentation are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 These principles govern how autonomous agents operate in this system.
 They are not guidelines — they are **architectural constraints**. A skill or agent that violates them is broken, not "non-compliant."
@@ -182,7 +182,7 @@ ARF answers: *did the agent's responses actually vary with the specifics of what
 
 **Validation (Principle 3).** Principles 1 and 2 *produce* the conditions for ARF. Situational discrimination *measures* it. Principle 3 *validates* the measurement. Without diverse, independent evaluators confirming the signal, ARF is self-assessed — and self-assessment can become self-justification. A single evaluator (or single model family) may consistently accept trails that look situated but are generic, because the evaluator shares the agent's blind spots. ARF that survives diverse scrutiny is externally evidenced. ARF that only one observer ever validated is an assertion.
 
-**Implementation note.** These principles define *what* Observable Autonomy requires. They do not prescribe *how* to provide it. A conforming implementation could use markdown files, a database, structured logs, a dashboard, or any other medium — as long as multi-resolution evidence exists, fidelity is marked, and the trail is inspectable by all observer classes. The specific tools and formats used in this suite (Kiroku scripts, TRAIL/ directories, GENBA run ledgers) are one implementation, not the specification itself.
+**Implementation note.** These principles define *what* Observable Autonomy requires. They do not prescribe *how* to provide it. A conforming implementation could use markdown files, a database, structured logs, a dashboard, or any other medium — as long as multi-resolution evidence exists, fidelity is marked, and the trail is inspectable by all observer classes. The specific tools and formats used in the kata skills suite (Kiroku scripts, TRAIL/ directories, GENBA run ledgers) are one implementation, not the specification itself.
 
 **Why this matters for scoring:** a scoring rubric for systems built on these principles must measure ARF directly — not the preconditions (which verify the environment) but the signal itself: does the agent discriminate between situations that demand different responses? Process frameworks (CMMI, DMAIC, NIST AI RMF) measure whether processes are followed correctly. None of them measure whether the agent's responses are situated to what it actually encountered — because in human organizations, that is assumed. For LLM agents, it must be externally evidenced.
 

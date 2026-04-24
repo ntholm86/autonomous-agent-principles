@@ -13,5 +13,4 @@ This repository contains the theory-level framework governing how autonomous AI 
 ## License
 
 Philosophy and documentation: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-Accompanying scripts: MIT License.
 Author: Nils Holmager | April 2026

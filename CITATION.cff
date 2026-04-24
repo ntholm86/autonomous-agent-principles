@@ -8,8 +8,8 @@ abstract: >
   three architectural principles (Commander's Intent, Observable Autonomy,
   Convergence Is Silence), and one emergent measurable property (Autonomous
   Reasoning Fidelity, ARF). Includes empirical evidence from a three-family
-  silence-convergence test (Grok, Gemini, GPT) and a documented falsification
-  finding that bounds the convergence claim. Implementation-agnostic.
+  silence-convergence test (Grok, Gemini, GPT) and documented falsification
+  findings that bound the convergence claim. Implementation-agnostic.
 authors:
   - family-names: Holmager
     given-names: Nils
