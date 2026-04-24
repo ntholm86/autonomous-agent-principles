@@ -1,5 +1,7 @@
 # Autonomous Agent Principles
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19732890.svg)](https://doi.org/10.5281/zenodo.19732890)
+
 This repository contains the theory-level framework governing how autonomous AI agents earn and exercise authority. The framework identifies two problems (autonomous reasoning + earned autonomy), three architectural principles (Commander's Intent, Observable Autonomy, Convergence Is Silence), and one emergent measurable property (Autonomous Reasoning Fidelity). It is implementation-agnostic — any tool, language, or platform can conform; none are prescribed.
 
 ## Read in this order

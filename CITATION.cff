@@ -8,8 +8,8 @@ abstract: >
   three architectural principles (Commander's Intent, Observable Autonomy,
   Convergence Is Silence), and one emergent measurable property (Autonomous
   Reasoning Fidelity, ARF). Includes empirical evidence from a three-family
-  silence-convergence test (Grok, Gemini, GPT) and documented falsification
-  findings that bound the convergence claim. Implementation-agnostic.
+  silence-convergence test (Anthropic, xAI/Grok, Google/Gemini) and documented
+  falsification findings that bound the convergence claim. Implementation-agnostic.
 authors:
   - family-names: Holmager
     given-names: Nils Wendelboe
@@ -18,6 +18,10 @@ repository-code: "https://github.com/ntholm86/autonomous-agent-principles"
 license: CC-BY-SA-4.0
 version: "1.0.0"
 date-released: "2026-04-23"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19732890"
+    description: "Zenodo archive of v1.0.0"
 keywords:
   - autonomous agents
   - AI governance
