@@ -1,4 +1,4 @@
-# Autonomous Development Manifesto
+# Autonomous Agent Principles
 
 This repository contains the theory-level framework governing how autonomous AI agents earn and exercise authority. The framework identifies two problems (autonomous reasoning + earned autonomy), three architectural principles (Commander's Intent, Observable Autonomy, Convergence Is Silence), and one emergent measurable property (Autonomous Reasoning Fidelity). It is implementation-agnostic — any tool, language, or platform can conform; none are prescribed.
 
