@@ -3,7 +3,7 @@
 *What this work is trying to solve.*
 
 > **Authorship & License**
-> Author: Nils Holmager | Date: April 2026
+> Author: Nils Wendelboe Holmager | Date: April 2026
 > This philosophical framework and documentation are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ---
@@ -81,7 +81,7 @@ Delegability is not capability (the model can do the task). It is not safety (th
 1. Is the reasoning visible enough, *at my resolution*, for me to judge it?
 2. Is the reasoning *situated* to this case — would it have come out differently for a different case?
 3. Is the *scope* of authority I'm granting bounded to what the evidence actually supports?
-4. Can I *revoke* the authority on the same evidence, if the trail shows the reasoning stop being situated?
+4. Can I *revoke* the authority on the same evidence, if the trail shows the reasoning stops being situated?
 
 A system is delegable *here, now, at this scope* when all four answer yes. Any single "no" is a reason to narrow scope or withhold delegation — not a failure of the framework, but the framework functioning correctly.
 

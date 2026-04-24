@@ -1,7 +1,7 @@
 # Principles of Autonomous Development
 
 > **Authorship & License**
-> Author: Nils Holmager | Date: April 2026
+> Author: Nils Wendelboe Holmager | Date: April 2026
 > This philosophical framework and documentation are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 These principles govern how autonomous agents operate.

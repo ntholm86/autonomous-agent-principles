@@ -12,8 +12,8 @@ abstract: >
   findings that bound the convergence claim. Implementation-agnostic.
 authors:
   - family-names: Holmager
-    given-names: Nils
-    orcid: ""
+    given-names: Nils Wendelboe
+    orcid: "https://orcid.org/0009-0009-7157-9084"
 repository-code: "https://github.com/ntholm86/autonomous-agent-principles"
 license: CC-BY-SA-4.0
 version: "1.0.0"
