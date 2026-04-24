@@ -1,0 +1,17 @@
+# Autonomous Development Manifesto
+
+This repository contains the theory-level framework governing how autonomous AI agents earn and exercise authority. The framework identifies two problems (autonomous reasoning + earned autonomy), three architectural principles (Commander's Intent, Observable Autonomy, Convergence Is Silence), and one emergent measurable property (Autonomous Reasoning Fidelity). It is implementation-agnostic — any tool, language, or platform can conform; none are prescribed.
+
+## Read in this order
+
+| File | What it does | Time |
+|---|---|---|
+| [PROBLEM.md](./PROBLEM.md) | Names the two problems and defines delegability as the connecting discipline. Start here. | 2 min (Digest) or 15 min (full) |
+| [PRINCIPLES.md](./PRINCIPLES.md) | Three principles that solve the problems, plus the ARF operational definition. | 2 min (Digest) or 20 min (full) |
+| [PROOF.md](./PROOF.md) | What was tested, what survived, what failed. The framework's claims are not asserted; they are documented against evidence. | 5 min |
+
+## License
+
+Philosophy and documentation: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Accompanying scripts: MIT License.
+Author: Nils Holmager | April 2026
