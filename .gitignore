@@ -1,4 +1,6 @@
 # Local-only evaluation evidence; not part of the published manifesto.
 # The manifesto is implementation-agnostic; specific trail formats
-# (TRAIL/, Kiroku, GENBA) are one implementation, not the specification.
+# (TRAIL/, trail/, Kiroku, GENBA) are one implementation, not the specification.
 TRAIL/
+TRAIL_v2_archive/
+trail/
