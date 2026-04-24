@@ -18,7 +18,7 @@ This manifesto is implementation-agnostic. The evidence below comes from one spe
 
 ### Principle 1 — Commander's Intent
 
-**The test.** The skill suite is written as missions, not procedures. The litmus test in [PRINCIPLES.md](./PRINCIPLES.md): *if you removed all specific examples and thresholds from a skill, would an intelligent agent still know what to do?* Three fresh model families (Grok, Gemini, GPT) — none involved in authoring the suite — were each asked to apply it cold to a real target.
+**The test.** The skill suite is written as missions, not procedures. The litmus test in [PRINCIPLES.md](./PRINCIPLES.md): *if you removed all specific examples and thresholds from a skill, would an intelligent agent still know what to do?* Three fresh model families (Anthropic, xAI/Grok, Google/Gemini) — none involved in authoring the suite — were each asked to apply it cold to a real target.
 
 **What happened.** Each evaluator, given only the skills' missions, produced a coherent evaluation approach without external scaffolding. None reported the skills as underspecified. The suite directed independent reasoning across distinct model lineages without a checklist.
 
