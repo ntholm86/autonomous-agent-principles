@@ -36,6 +36,8 @@ This is not a refutation of Convergence Is Silence. It is a falsification of an 
 
 The unsolved limit this exposes is the one `PROBLEM.md` already names: *evaluator independence and diversity reduce shared blind spots but do not eliminate them.* Today's event is concrete evidence that this open problem is real, not theoretical.
 
+A second instance of the same class was subsequently found in the implementing skill suite (kata repo, v3 convergence chain, April 2026): the chain's three independent evaluators each read `trail/README.md` during their runs and stepped past a documentation drift in which the file described a retired three-file trail structure and a Glossary listing skill names that no longer exist in v3. The defect was found by human review during publication preparation, after the chain had closed. Two instances in two repositories within the first month of operation indicate this is a recurring failure mode of the convergence chain, with a specific shape: cross-file claims-vs-reality drift in surrounding documentation, where the chain reads files for their first-order content and does not test second-order claims those files make about the rest of the repository. This is a property of the chain as currently operated, not a defect in any single principle.
+
 ## What this evidence does and does not establish
 
 | Claim | Status |
