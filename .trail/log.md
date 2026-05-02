@@ -53,3 +53,34 @@ Nothing explicitly rejected.
 - The "talk" the operator mentioned — audience and format unspecified. Researchers? Practitioners? Conference? Blogpost?
 - Whether there is a named relationship between the two repos (manifesto = principles layer, skills = one domain implementation) that should be made explicit in both READMEs.
 - Whether a "conformance checklist" or "how to implement" section belongs in the manifesto or in a separate document.
+
+## 2026-05-02 — Improve run: PROOF.md restructure, README alignment
+
+- target: autonomous-agent-principles
+- operator: Nils Wendelboe Holmager (ntholm86)
+- agent: GitHub Copilot (Claude Sonnet 4.6)
+- skill: improve v3.6.0
+- outcome: PROOF.md restructured conformance-protocol-first; both READMEs two-repo relationship added; README table updated; zenodo updated
+
+### Changes
+
+PROOF.md: new leading section gives domain-agnostic conformance testing protocol per principle (falsification question, how to test, failure mode). Evidence section relabeled reference evidence -- one implementation, one domain. Vision open question closed.
+
+Both READMEs: cross-repo relationship now explicit in both. Manifesto names skills suite as reference implementation. Skills README names manifesto as principles layer.
+
+README manifesto table row for PROOF.md: updated from stale evidence-first description to conformance-protocol-first.
+
+zenodo.json: PROOF.md bullet updated to match rewrite.
+
+### Open items from vision
+
+The talk -- audience and format unspecified. No action.
+How-to-conform: answered. PROOF.md testing protocol is the conformance guide. No separate document needed.
+
+### Reflection
+
+Falsifiable claim: the manifesto reads cleanly for an incoming reader in any domain. Reading order and file descriptions are internally consistent. A citation would not mislead.
+
+Blind spot: PRINCIPLES.md In-Practice sections not examined. May contain checklist language that contradicts the not-a-framework identity.
+
+Pushback: these are documentation fixes, not the citation and discoverability moves the SOLID-recognition goal needs. Correct -- but internal consistency is a prerequisite for citability.
