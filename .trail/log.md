@@ -112,3 +112,36 @@ Falsifiable claim: PRINCIPLES.md is now internally self-consistent. Every cross-
 Blind spot: PRINCIPLES.md was read but not tested against a fresh reader. The consistency check is necessary but not sufficient for SOLID-like citability -- that requires external discoverability, not internal accuracy.
 
 Pushback: both fixes are small. Correct. But a manifesto that misdescribes its own section and counts wrong in the section addressed to implementers cannot be cited as authoritative. Accuracy is table stakes.
+
+## 2026-05-02 — Improve run: PROBLEM.md full read
+
+- target: autonomous-agent-principles
+- operator: Nils Wendelboe Holmager (ntholm86)
+- agent: GitHub Copilot (Claude Sonnet 4.6)
+- skill: improve v3.6.0
+- outcome: one terminology inconsistency found and fixed; everything else clean
+
+### Finding (db1f882)
+
+Out of Scope item 5 used governance and evidence layer -- a one-off label that contradicts the established term evidence substrate used everywhere else in the same file and throughout the manifesto.
+Fixed to evidence substrate. The established term is used consistently across all four files now.
+
+### Full examination result
+
+Cross-references: PRINCIPLES.md anchor link resolves correctly. No PROOF.md references (none expected). Working hypothesis block quote intact.
+Five observer classes: Digest says five; the Who the Evidence Must Serve section lists exactly five. Count is consistent.
+What Must Be Built On Top: description list, not a checklist. Form correct.
+Out of Scope: eight items, no counter-claim (section header does not state a count). No issue.
+
+### Examination coverage after this run
+
+README: consistent. PRINCIPLES: consistent. PROOF: consistent. PROBLEM: consistent.
+All four files read and checked. The manifesto has no known internal inconsistencies.
+
+### Reflection
+
+Falsifiable claim: the manifesto uses evidence substrate as the single label for its core concept, consistently across all four files. A reader who encounters it in the Digest will find it reinforced everywhere else.
+
+Blind spot: evidence substrate may not land clearly for external audiences who have not read the Digest. The concept is sound; naming is an open discoverability question.
+
+Pushback: this was a terminology consistency fix in a late aside -- not a structural change. Correct. But a manifesto that names its own core concept two ways in the same file signals draft state. Draft state hurts citability.
