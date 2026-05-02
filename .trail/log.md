@@ -84,3 +84,31 @@ Falsifiable claim: the manifesto reads cleanly for an incoming reader in any dom
 Blind spot: PRINCIPLES.md In-Practice sections not examined. May contain checklist language that contradicts the not-a-framework identity.
 
 Pushback: these are documentation fixes, not the citation and discoverability moves the SOLID-recognition goal needs. Correct -- but internal consistency is a prerequisite for citability.
+
+## 2026-05-02 — Improve run: PRINCIPLES.md consistency check
+
+- target: autonomous-agent-principles
+- operator: Nils Wendelboe Holmager (ntholm86)
+- agent: GitHub Copilot (Claude Sonnet 4.6)
+- skill: improve v3.6.0
+- outcome: two inconsistencies fixed in PRINCIPLES.md; PROBLEM.md clean
+
+### Changes (c82174d)
+
+Digest callout for PROOF.md: was stale description from evidence-first structure. Updated to match conformance-protocol-first structure introduced in d343baa. Same class of error as the README table fix, missed because the Digest lives inside PRINCIPLES.md not README.md.
+
+For implementers section: said must embody all three but listed four items. Fixed to all four. Likely a survivor from when the section had three items and a fourth was added.
+
+### Examination result
+
+In practice bullets under each principle: vocabulary and examples, not procedural steps. Not checklist-in-disguise. The form is correct -- each bullet describes what the principle looks like in action, not a step to execute.
+
+PROBLEM.md: no PROOF.md references, no stale count errors. Clean.
+
+### Reflection
+
+Falsifiable claim: PRINCIPLES.md is now internally self-consistent. Every cross-reference to PROOF.md describes what the file actually contains. The For implementers section counts correctly. No In practice section prescribes procedural steps.
+
+Blind spot: PRINCIPLES.md was read but not tested against a fresh reader. The consistency check is necessary but not sufficient for SOLID-like citability -- that requires external discoverability, not internal accuracy.
+
+Pushback: both fixes are small. Correct. But a manifesto that misdescribes its own section and counts wrong in the section addressed to implementers cannot be cited as authoritative. Accuracy is table stakes.
