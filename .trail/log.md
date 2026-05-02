@@ -145,3 +145,32 @@ Falsifiable claim: the manifesto uses evidence substrate as the single label for
 Blind spot: evidence substrate may not land clearly for external audiences who have not read the Digest. The concept is sound; naming is an open discoverability question.
 
 Pushback: this was a terminology consistency fix in a late aside -- not a structural change. Correct. But a manifesto that names its own core concept two ways in the same file signals draft state. Draft state hurts citability.
+
+
+## 2026-05-02 — Improve run: PROOF.md Digest
+
+- target: autonomous-agent-principles
+- operator: Nils Wendelboe Holmager (ntholm86)
+- agent: GitHub Copilot (Claude Sonnet 4.6)
+- skill: improve v3.7.0 (occasion-independence bootstrap fired)
+- outcome: Digest section added to PROOF.md — three conformance tests in citable form
+- session-file: .trail/sessions/2026-05-02-proof-digest.md
+- delta: 12812ee
+
+### Finding
+
+PROBLEM.md and PRINCIPLES.md both have Digest sections. PROOF.md did not. The conformance tests existed in full-prose form but had no extractable one-breath summary — inconsistent with the manifesto's established pattern and at odds with the vision destination ("as citable as SOLID").
+
+### Change
+
+Added `## Digest (60 seconds)` to PROOF.md with three one-line conformance tests (one per principle) and the note "These tests are domain-agnostic. Apply them to your own system."
+
+### Occasion-independence note
+
+Ask was underspecified ("lets go"). The v3.7.0 bootstrap fired: formed hunches from vision+trail tail, identified the conformance-digest gap as the highest-confidence structural finding, proceeded without operator topic injection. First positive data point in a different arc from the mechanism's original design session.
+
+### Reflection
+
+Falsifiable claim: a reader who reads only PROOF.md's Digest can state all three conformance tests accurately in one breath.
+
+Blind spot: Digest vocabulary (trail, loop, evaluator family) depends on PRINCIPLES.md. Readers who skip the reading order may need the README's guidance.
